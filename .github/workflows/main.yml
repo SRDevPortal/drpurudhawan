@@ -9,8 +9,8 @@ jobs:
       uses: actions/checkout@3
 
     - name: Sync files
-      uses: SRDevPortal/FTP-Deploy-Actions@v4.3.4
+      uses: SamKirkland/FTP-Deploy-Actions@v4.3.4
       with:
-        server: ${{ secrets.ftp_server }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        server: ftp.drpurudhawan.com
+        username: gittest@drpurudhawan.com
+        password: zrGL*g(6c.*.
