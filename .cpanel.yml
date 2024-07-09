@@ -1,1 +1,5 @@
---- deployment: tasks: - export DEPLOYPATH=/home/drpurudhawan/public_html/testrepo/ - /bin/cp -a * $DEPLOYPATH
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/drpurudhawan/public_html/testrepo/
+    - /bin/cp -a * $DEPLOYPATH
