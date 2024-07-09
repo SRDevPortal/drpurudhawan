@@ -1,5 +1,5 @@
 on: push
-name: Deply Website on push
+name: SRDevPortal - Deploy Website
 jobs:
   web-deploy:
     name: Deploy
