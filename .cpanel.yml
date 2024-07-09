@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/drpurudhawan/public_html/repositories/
+    - /bon/cp * $DEPLOYPATH
+    
