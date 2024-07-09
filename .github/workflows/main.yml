@@ -3,7 +3,7 @@ name: SRDevPortal - Deploy Website
 jobs:
   web-deploy:
     name: Deploy
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: get latest code
       uses: actions/checkout@3
